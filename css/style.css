@@ -39,3 +39,22 @@ body {
   position:relative;
   background:url('../img/background.jpg') no-repeat center center/cover;
 }
+
+.showcase-top{
+  position:relative;
+  top:90;
+}
+.showcase-top img{
+  width:170px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%)
+}
+
+.showcase-top a{
+  position:absoulute;
+  top:50%;
+  right:0;
+  transform: translate(-50% ,-50%)
+}
